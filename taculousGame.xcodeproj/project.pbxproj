@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB62857A196716DB002099FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB628579196716DB002099FC /* AppDelegate.swift */; };
+		FB62857C196716DB002099FC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FB62857B196716DB002099FC /* GameScene.sks */; };
+		FB62857E196716DB002099FC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62857D196716DB002099FC /* GameScene.swift */; };
+		FB628580196716DB002099FC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62857F196716DB002099FC /* GameViewController.swift */; };
+		FB628583196716DB002099FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB628581196716DB002099FC /* Main.storyboard */; };
+		FB628585196716DB002099FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB628584196716DB002099FC /* Images.xcassets */; };
+		FB628591196716DB002099FC /* taculousGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB628590196716DB002099FC /* taculousGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB62858B196716DB002099FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB62856C196716DB002099FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB628573196716DB002099FC;
+			remoteInfo = taculousGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB628574196716DB002099FC /* taculousGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taculousGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB628578196716DB002099FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB628579196716DB002099FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB62857B196716DB002099FC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FB62857D196716DB002099FC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FB62857F196716DB002099FC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FB628582196716DB002099FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB628584196716DB002099FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB62858A196716DB002099FC /* taculousGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taculousGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB62858F196716DB002099FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB628590196716DB002099FC /* taculousGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taculousGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB628571196716DB002099FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB628587196716DB002099FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB62856B196716DA002099FC = {
+			isa = PBXGroup;
+			children = (
+				FB628576196716DB002099FC /* taculousGame */,
+				FB62858D196716DB002099FC /* taculousGameTests */,
+				FB628575196716DB002099FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB628575196716DB002099FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB628574196716DB002099FC /* taculousGame.app */,
+				FB62858A196716DB002099FC /* taculousGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB628576196716DB002099FC /* taculousGame */ = {
+			isa = PBXGroup;
+			children = (
+				FB628579196716DB002099FC /* AppDelegate.swift */,
+				FB62857B196716DB002099FC /* GameScene.sks */,
+				FB62857D196716DB002099FC /* GameScene.swift */,
+				FB62857F196716DB002099FC /* GameViewController.swift */,
+				FB628581196716DB002099FC /* Main.storyboard */,
+				FB628584196716DB002099FC /* Images.xcassets */,
+				FB628577196716DB002099FC /* Supporting Files */,
+			);
+			path = taculousGame;
+			sourceTree = "<group>";
+		};
+		FB628577196716DB002099FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB628578196716DB002099FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB62858D196716DB002099FC /* taculousGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB628590196716DB002099FC /* taculousGameTests.swift */,
+				FB62858E196716DB002099FC /* Supporting Files */,
+			);
+			path = taculousGameTests;
+			sourceTree = "<group>";
+		};
+		FB62858E196716DB002099FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB62858F196716DB002099FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB628573196716DB002099FC /* taculousGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB628594196716DB002099FC /* Build configuration list for PBXNativeTarget "taculousGame" */;
+			buildPhases = (
+				FB628570196716DB002099FC /* Sources */,
+				FB628571196716DB002099FC /* Frameworks */,
+				FB628572196716DB002099FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taculousGame;
+			productName = taculousGame;
+			productReference = FB628574196716DB002099FC /* taculousGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB628589196716DB002099FC /* taculousGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB628597196716DB002099FC /* Build configuration list for PBXNativeTarget "taculousGameTests" */;
+			buildPhases = (
+				FB628586196716DB002099FC /* Sources */,
+				FB628587196716DB002099FC /* Frameworks */,
+				FB628588196716DB002099FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB62858C196716DB002099FC /* PBXTargetDependency */,
+			);
+			name = taculousGameTests;
+			productName = taculousGameTests;
+			productReference = FB62858A196716DB002099FC /* taculousGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB62856C196716DB002099FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pandurang Yachwad Creation";
+				TargetAttributes = {
+					FB628573196716DB002099FC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FB628589196716DB002099FC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FB628573196716DB002099FC;
+					};
+				};
+			};
+			buildConfigurationList = FB62856F196716DB002099FC /* Build configuration list for PBXProject "taculousGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB62856B196716DA002099FC;
+			productRefGroup = FB628575196716DB002099FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB628573196716DB002099FC /* taculousGame */,
+				FB628589196716DB002099FC /* taculousGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB628572196716DB002099FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB628585196716DB002099FC /* Images.xcassets in Resources */,
+				FB62857C196716DB002099FC /* GameScene.sks in Resources */,
+				FB628583196716DB002099FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB628588196716DB002099FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB628570196716DB002099FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB62857E196716DB002099FC /* GameScene.swift in Sources */,
+				FB628580196716DB002099FC /* GameViewController.swift in Sources */,
+				FB62857A196716DB002099FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB628586196716DB002099FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB628591196716DB002099FC /* taculousGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB62858C196716DB002099FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB628573196716DB002099FC /* taculousGame */;
+			targetProxy = FB62858B196716DB002099FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB628581196716DB002099FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB628582196716DB002099FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB628592196716DB002099FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB628593196716DB002099FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB628595196716DB002099FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = taculousGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB628596196716DB002099FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = taculousGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB628598196716DB002099FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/taculousGame.app/taculousGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = taculousGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FB628599196716DB002099FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/taculousGame.app/taculousGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = taculousGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB62856F196716DB002099FC /* Build configuration list for PBXProject "taculousGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB628592196716DB002099FC /* Debug */,
+				FB628593196716DB002099FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB628594196716DB002099FC /* Build configuration list for PBXNativeTarget "taculousGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB628595196716DB002099FC /* Debug */,
+				FB628596196716DB002099FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB628597196716DB002099FC /* Build configuration list for PBXNativeTarget "taculousGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB628598196716DB002099FC /* Debug */,
+				FB628599196716DB002099FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB62856C196716DB002099FC /* Project object */;
+}
